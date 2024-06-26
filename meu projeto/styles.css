@@ -1,0 +1,76 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: 'Minha Fonte', Arial, sans-serif;
+}
+
+header {
+    background-color: #023875;
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+}
+
+/* Define a fonte */
+@font-face {
+    font-family: 'Minha Fonte';
+    src: url('font/ALGER.TTF') format('woff2'),
+         url('font/ALGER.TTF') format('woff');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+main {
+    padding: 1em;
+}
+
+.pessoa {
+    background-color: rgb(255, 239, 147);
+    border: 1px solid #503700;
+    border-radius: 0px;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    width: 250px;
+}
+.inicio {
+    font-weight: Algerian;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+}
+.pessoa img {
+    border-radius: 150%;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #30005e33;
+    color: rgb(99, 84, 0);
+    text-align: center;
+    padding: 2em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.pessoa img {
+    border: 2px solid #333; /* Cor e largura da borda */
+    border-radius: 2px;    /* Bordas arredondadas */
+    width: 250px;       /* largura da imagem */
+    height: 200px;      /* altura  da imagem */
+    margin-bottom: 10px;    /* Espaço entre a imagem e o texto */
+}
+
+.recompensa {
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 10px;
+}
